@@ -9,7 +9,7 @@ Ji-Assets/
 ```
 
 ### `shared/buttons/`
-
+```
 |---|---|
 | `Discord-Button-64.png` | Discord |
 | `Github-Button-64.png` | GitHub |
@@ -18,3 +18,4 @@ Ji-Assets/
 | `Kofi-Button-64.png` | Ko-fi |
 | `Tiktok-Button-64.png` | TikTok |
 | `Youtube-Button-64.png` | YouTube |
+```
