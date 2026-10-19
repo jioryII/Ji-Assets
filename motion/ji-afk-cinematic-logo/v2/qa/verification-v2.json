@@ -1,0 +1,151 @@
+{
+  "result": "PASS",
+  "video": {
+    "file": "deliverables/ji-afk-cinematic-logo-animation-v2.mp4",
+    "sha256": "461cc841266aadc3ffa3212346efcdc92788040e93a23690cfafab3384eba4d4",
+    "bytes": 680564,
+    "width": 1080,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 225,
+    "duration_seconds": 7.5,
+    "codec": "h264",
+    "pix_fmt": "yuv420p",
+    "audio_streams": 0,
+    "faststart": true,
+    "all_frame_pts_verified": true,
+    "full_decode_errors": 0
+  },
+  "mp4_atoms": [
+    {
+      "kind": "ftyp",
+      "offset": 0,
+      "bytes": 32
+    },
+    {
+      "kind": "moov",
+      "offset": 32,
+      "bytes": 3551
+    },
+    {
+      "kind": "free",
+      "offset": 3583,
+      "bytes": 8
+    },
+    {
+      "kind": "mdat",
+      "offset": 3591,
+      "bytes": 676973
+    }
+  ],
+  "geometry": {
+    "embedded_raster": 0,
+    "font_dependencies": 0,
+    "spiral_guide_length_svg_units": 245.39138616557528,
+    "completed_mask_missing_pixels": {
+      "J": 0,
+      "I": 0,
+      "A": 0,
+      "F": 0,
+      "K": 0,
+      "spiral": 0
+    },
+    "opening_exact_background": true
+  },
+  "final_hold": {
+    "start_frame": 212,
+    "end_frame": 224,
+    "source_svgs_identical": true,
+    "duration_seconds": 0.43333333333333335,
+    "encoded_character_max_mean_delta": 0.0052795931696891785
+  },
+  "master_comparison": {
+    "reference": "V1 vector master; NOT original PNG",
+    "mean_absolute_channel_error": 0.0012397118844091892,
+    "max_channel_error": 39.0
+  },
+  "deterministic_rerender_rgb_sha256": {
+    "36": "79db8f29780b947479dac38ff941a6f4dccf72498573e4e75e65ef59c7a32ceb",
+    "90": "954a27d16391c936f32e18aa40038718753b3ea9724d41ed26f841bc9adda5f3",
+    "162": "c8884ddaf21af21288101d552f0c1425c807b5c7828048993b3132a682d473e8",
+    "224": "261295ad3a55cace75fa7f7d61d012c18be161cb2ddee56a94821361b442f259"
+  },
+  "motion_density": [
+    {
+      "stage": "entry",
+      "start_frame": 0,
+      "end_exclusive": 30,
+      "v2_character_mean_abs_delta": 0.7489662766456604,
+      "v2_character_transitions_over_0_005": 26,
+      "v1_character_mean_abs_delta": 0.3348461389541626,
+      "v1_character_transitions_over_0_005": 25
+    },
+    {
+      "stage": "yaw",
+      "start_frame": 30,
+      "end_exclusive": 66,
+      "v2_character_mean_abs_delta": 1.9221701622009277,
+      "v2_character_transitions_over_0_005": 35,
+      "v1_character_mean_abs_delta": 1.0284994840621948,
+      "v1_character_transitions_over_0_005": 35
+    },
+    {
+      "stage": "anticipation",
+      "start_frame": 66,
+      "end_exclusive": 87,
+      "v2_character_mean_abs_delta": 2.144592761993408,
+      "v2_character_transitions_over_0_005": 20,
+      "v1_character_mean_abs_delta": 0.6996613144874573,
+      "v1_character_transitions_over_0_005": 20
+    },
+    {
+      "stage": "impact",
+      "start_frame": 87,
+      "end_exclusive": 111,
+      "v2_character_mean_abs_delta": 4.386899948120117,
+      "v2_character_transitions_over_0_005": 23,
+      "v1_character_mean_abs_delta": 2.267051935195923,
+      "v1_character_transitions_over_0_005": 23
+    },
+    {
+      "stage": "typography",
+      "start_frame": 111,
+      "end_exclusive": 153,
+      "v2_character_mean_abs_delta": 0.4023095667362213,
+      "v2_character_transitions_over_0_005": 41,
+      "v1_character_mean_abs_delta": 0.054449405521154404,
+      "v1_character_transitions_over_0_005": 13
+    },
+    {
+      "stage": "blink/residual",
+      "start_frame": 153,
+      "end_exclusive": 177,
+      "v2_character_mean_abs_delta": 0.29291972517967224,
+      "v2_character_transitions_over_0_005": 23,
+      "v1_character_mean_abs_delta": 2.462820521031972e-05,
+      "v1_character_transitions_over_0_005": 0
+    },
+    {
+      "stage": "settle",
+      "start_frame": 177,
+      "end_exclusive": 212,
+      "v2_character_mean_abs_delta": 0.06474433839321136,
+      "v2_character_transitions_over_0_005": 34,
+      "v1_character_mean_abs_delta": 4.3572985305218026e-05,
+      "v1_character_transitions_over_0_005": 0
+    },
+    {
+      "stage": "hero hold",
+      "start_frame": 212,
+      "end_exclusive": 225,
+      "v2_character_mean_abs_delta": 0.0013543934328481555,
+      "v2_character_transitions_over_0_005": 1,
+      "v1_character_mean_abs_delta": 6.172838766360655e-05,
+      "v1_character_transitions_over_0_005": 0
+    }
+  ],
+  "source_reference": {
+    "original_png_binary_available": false,
+    "method": "Canonical V1 Bezier geometry preserved; official image in conversation used for visual reference."
+  }
+}

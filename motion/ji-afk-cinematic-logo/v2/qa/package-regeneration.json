@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "method": "Extract project ZIP to isolated work folder; rerender all 225 frames from extracted sources with production settings; compare complete MP4 bytes.",
+  "mp4_sha256": "461cc841266aadc3ffa3212346efcdc92788040e93a23690cfafab3384eba4d4",
+  "regenerated_mp4_sha256": "461cc841266aadc3ffa3212346efcdc92788040e93a23690cfafab3384eba4d4",
+  "bytes_identical": true,
+  "source_sha256": {
+    "src/raster.py": "574eef222bb2d3ec8619a49863487daeb25cfd45d26e90e8e8f1afc966616654",
+    "src/playback_review.py": "8e049fc9c5ba21701c86ebe7a9d0ff3195b899ed38b74d262800e44a204831d7",
+    "src/logo.py": "26a2313351f3be7e61100e8f38cea1511f6433a7741bc2951ecea5402402cc53",
+    "src/render.py": "0d7c74df9191166d99cb90f3f9fbd03a4db812a202d808bb08bb7bd6a49beed5",
+    "src/animate.py": "3059a2f28e81d2ad0f8541ac4e968a1083dfde82028275dcaa3564dbdc4ab6d8",
+    "src/timeline.json": "065fe73e8257142a0c7dbc43018c8892a40f7cea5cfee515fa86b513bca3c40e",
+    "src/geometry.py": "c1d146a994960b2f885df7c854067863117f296ec1b7cb2bf65bc66974b7cdab",
+    "src/verify.py": "e7f51372b7be3acc06e00dca03ed354ca63ab23685dba64e3af8a3cc6cc5e329",
+    "src/rig.py": "26f7162f21cafccd22cd92b57e72523da26c18e6c012e53216e6820ee1f0257f"
+  },
+  "environment": "render-environment.json",
+  "reproduction_command": "python3 v2/src/render.py --output work/regenerated.mp4"
+}

@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "render": "librsvg / Cairo; SVG B\u00e9zier geometry only",
+  "primary_command": "python3 src/render.py",
+  "qa_command": "python3 src/verify.py"
+}

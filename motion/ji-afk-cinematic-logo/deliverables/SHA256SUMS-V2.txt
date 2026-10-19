@@ -1,0 +1,3 @@
+461cc841266aadc3ffa3212346efcdc92788040e93a23690cfafab3384eba4d4  deliverables/ji-afk-cinematic-logo-animation-v2.mp4
+e60bd804a3b8a36585c678a2eedd4159ab06460db8b8f26e2de705dbdcb5d00b  v2/assets/ji-afk-cinematic-v2-final.svg
+4984bc042cf47c7d8ec02453a72c10cc0a621618371a32ce74bc3e7e8a183e54  deliverables/ji-afk-cinematic-logo-project-v2.zip

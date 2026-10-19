@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "frames": 225,
+  "fps": 30,
+  "size": 1080,
+  "spatial_supersample": 2,
+  "temporal_samples": 6,
+  "shutter_angle_degrees": 120,
+  "temporal_integration": "linear-light, selective fast intervals",
+  "elapsed_seconds": 75.90078783035278
+}
