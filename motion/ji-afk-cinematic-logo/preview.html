@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JI AFK CINEMATIC · Motion</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#20141a;color:#f7dce2;font:15px system-ui,sans-serif}
+main{max-width:1360px;margin:auto;display:grid;grid-template-columns:300px 1fr;gap:42px;padding:48px}
+aside{padding-top:12px}h1{font-size:40px;line-height:.95;letter-spacing:-2px;margin:20px 0}h1 span{display:block;font-size:14px;letter-spacing:5px;margin-top:14px}
+.eyebrow{font-size:10px;letter-spacing:3px;color:#c78b9e}p{color:#cdb3bd;line-height:1.65}video{display:block;width:100%;background:#f3a0a7;border-radius:4px}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:18px;font-size:12px}button,select,a{font:inherit;color:inherit}
+button,select{background:#38232d;border:1px solid #68404e;border-radius:5px;padding:9px 12px;cursor:pointer}button:hover{background:#56303e}
+nav{display:grid;gap:6px;margin:28px 0}nav button{text-align:left;font-size:12px}nav b{display:inline-block;width:42px;color:#e5a1b5;font-variant-numeric:tabular-nums}a{color:#edb4c5;text-decoration:none;font-size:12px}.files{display:grid;gap:12px;margin-top:24px}output{font-variant-numeric:tabular-nums;color:#e4b5c3}
+@media(max-width:800px){main{padding:22px;grid-template-columns:1fr;gap:20px}aside{padding:0}h1{font-size:30px}nav{grid-template-columns:1fr 1fr}.files{display:flex;flex-wrap:wrap}}
+</style>
+<main><aside><div class="eyebrow">VECTOR MOTION / 01</div><h1>JI AFK<span>CINEMATIC</span></h1><p>Curiosidad, anticipación y una revelación construida con las curvas de la marca.</p>
+<nav>
+<button data-t="0"><b>0.00</b> Despertar</button><button data-t="1.05"><b>1.05</b> Curiosidad</button>
+<button data-t="1.90"><b>1.90</b> Segundo gesto</button><button data-t="2.80"><b>2.80</b> Anticipación</button>
+<button data-t="3.20"><b>3.20</b> Revelación</button><button data-t="4.10"><b>4.10</b> Construcción tipográfica</button>
+<button data-t="5.25"><b>5.25</b> Subtítulo</button><button data-t="6.30"><b>6.30</b> Marca completa</button>
+</nav><div class="eyebrow">1080 × 1080 · 60 FPS · 8 S</div><div class="files"><a href="assets/ji-afk-cinematic-master.svg">Abrir SVG maestro ↗</a><a href="qa/contact-sheet.jpg">Ver hoja de contacto ↗</a><a href="deliverables/ji-afk-cinematic-logo-animation.mp4" download>Descargar MP4 ↗</a></div></aside>
+<section><video id="v" controls playsinline preload="auto" poster="qa/12-7.98s.png"><source src="deliverables/ji-afk-cinematic-logo-animation.mp4" type="video/mp4"></video>
+<div class="controls"><button id="again">Reproducir desde inicio</button><output id="tc">0.00 s / 8.00 s</output><label>Velocidad <select id="rate"><option value="1">1×</option><option value="0.5">0.5×</option><option value="0.25">0.25×</option></select></label></div></section></main>
+<script>
+const v=document.querySelector('#v');
+document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{v.pause();v.currentTime=+b.dataset.t});
+document.querySelector('#rate').onchange=e=>v.playbackRate=+e.target.value;
+document.querySelector('#again').onclick=()=>{v.currentTime=0;v.play()};
+v.ontimeupdate=()=>document.querySelector('#tc').textContent=v.currentTime.toFixed(2)+' s / 8.00 s';
+</script></html>

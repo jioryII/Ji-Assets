@@ -1,0 +1,63 @@
+{
+  "result": "PASS",
+  "video": {
+    "file": "deliverables/ji-afk-cinematic-logo-animation.mp4",
+    "codec": "h264",
+    "profile": "High",
+    "width": 1080,
+    "height": 1080,
+    "fps": 60,
+    "duration_seconds": 8,
+    "decoded_frames": 480,
+    "pixel_format": "yuv420p",
+    "audio": "intentionally silent",
+    "bytes": 373033,
+    "sha256": "d25a796ab5e574092dbcd1a769a938da5e3bb2c732111ac4710cc6226e171a97"
+  },
+  "additional_masters": [
+    {
+      "file": "deliverables/ji-afk-cinematic-logo-animation-2160.mp4",
+      "codec": "h264",
+      "width": 2160,
+      "height": 2160,
+      "fps": 60,
+      "duration_seconds": 8,
+      "decoded_frames": 480,
+      "bytes": 898670,
+      "sha256": "8b558d17094db3ccf89edde28797d7f3f075d0d6266614264ee9d61dd8dff665"
+    }
+  ],
+  "geometry": {
+    "raster_images_in_svg": 0,
+    "font_dependencies": 0,
+    "named_groups": 28,
+    "silhouette_interior_holes": 0,
+    "letter_pen_mask_missing_pixels": 0
+  },
+  "final_hold": {
+    "source_stable_from_seconds": 5.85,
+    "duration_seconds": 2.15,
+    "sampled_svg_frames_identical": true,
+    "encoded_max_mean_delta_after_6s": 0.0016963877457704618
+  },
+  "master_comparison": {
+    "method": "same square composition; source SVG frame vs editable master",
+    "mean_absolute_channel_error": 0.00041923868312757203,
+    "max_channel_error_at_antialiased_edges": 7
+  },
+  "temporal": {
+    "max_mean_delta": 2.476460905349794,
+    "time_of_max_delta": 3.316666666666667,
+    "maximum_boundary_change": 3.0
+  },
+  "visual_review": {
+    "reference": "official image visible in user message; manually rebuilt",
+    "original_png_binary_available": false,
+    "review_artifacts": [
+      "contact-sheet.jpg",
+      "motion-overview-48-frames.jpg",
+      "master-full.png"
+    ],
+    "note": "Visual fidelity reviewed; no pixel equality claim against unavailable original PNG."
+  }
+}
