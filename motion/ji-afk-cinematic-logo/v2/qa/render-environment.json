@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "packages": {
+    "Pillow": "12.3.0",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "playwright": "1.62.0"
+  },
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "libraries": "libcairo2:amd64\t1.18.4-1+b1\nlibrsvg2-2:amd64\t2.60.0+dfsg-1\n"
+}
